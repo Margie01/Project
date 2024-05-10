@@ -6,22 +6,25 @@
     
 
     <title>My page title</title>
-    <link href="./Website_files/css" rel="stylesheet" type="text/css">
+    <!--link href="./Website_files/css" rel="stylesheet" type="text/css"-->
 
-    <style>
-      :root {
-        color{
-        --base-font-color: rgb(131,148,150);}
+    <!--style>
+        main
+        {
+          base-font-color: rgb(131,148,150);}
         
         --secondary-font-color: rgb(88,110,117);
         --emphasised-font: rgb(147,161,161);
 
         body{
-        --c-background-color: rgb(0, 43, 54);}
+          c-background-color: rgb(0, 43, 54);
+        }
+
         header{  
-        --c-background-highlights: rgb(7, 54, 66);}
-        footer{ 
-        --c-background-highlights: rgb(7, 54, 66);}
+          background-highlights: rgb(7, 54, 66);}
+
+        footer{   
+          background-highlights: rgb(7, 54, 66);}
 
         --c-yellow: rgb(181,137,  0);
         --c-orange: rgb(203, 75, 22);
@@ -31,6 +34,24 @@
         --c-blue: rgb(38,139,210);
         --c-cyan: rgb(42,161,152);
         --c-green: rgb(133,153,0);
+      
+    </style-->
+    <style>
+      body{
+        background-color: rgb(0, 43, 54);
+      }
+      header{
+        background-color: rgb(7, 54, 66);
+        color: rgb(131,148,150);
+      }
+
+      footer{
+        background-color: rgb(7, 54, 66);
+        color: rgb(131,148,150);
+      }
+
+      main{
+        color: rgb(131,148,150);
       }
     </style>
 
@@ -64,7 +85,7 @@
 
       <!-- It contains an article -->
       <article>
-        <h2>Article heading</h2>
+        <h1>Article heading</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
