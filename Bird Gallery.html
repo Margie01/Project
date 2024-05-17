@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta charset="UTF-8"-->
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
     <title>Bird Gallery</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Bird Gallery</h1>
-        <button id="theme-toggle">Toggle Theme</button>
     </header>
+
+    <button id="theme-toggle">Change Theme</button>
+
     <main>
-        <img id="bird-image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
-        <p id="photographer">Pardalote by fir0002 (CC-by-NC)</p>
+        <article>
+            <img id="bird-image" src="http://www.outgrabe.net/bird00.jpg" alt="Pardalote">
+            <br>
+            <p id="photographer">Pardalote by fir0002 (CC-by-NC)</p>
+        </article>
+
         <div id="buttons">
             <button onclick="changeImage('http://www.outgrabe.net/bird00.jpg', 'Pardalote', 'fir0002 (CC-by-NC)')">Pardalote</button>
             <button onclick="changeImage('http://www.outgrabe.net/bird01.jpg', 'Purple Swamp Hen', 'Toby Hudson (CC-by-SA)')">Purple Swamp Hen</button>
@@ -22,6 +30,8 @@
             <button onclick="changeImage('http://www.outgrabe.net/bird04.jpg', 'Rose Robin', 'JJ Harrison (CC-by-SA)')">Rose Robin</button>
         </div>
     </main>
-    <script src="script.js"></script>
+
+    <script src="java.js"></script>
 </body>
+
 </html>

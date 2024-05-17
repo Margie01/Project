@@ -1,17 +1,17 @@
 :root {
     --primary-color: #007bff;
     --secondary-color: #6c757d;
-    --bg-color: #f8f9fa;
+    --bg-color: #cee0f1;
     --font-color: #343a40;
-    --heading-color: #007bff;
+    --heading-color: #061321;
 }
 
 [data-theme="dark"] {
-    --primary-color: #ff6347;
-    --secondary-color: #28a745;
-    --bg-color: #343a40;
-    --font-color: #f8f9fa;
-    --heading-color: #ff6347;
+    --primary-color: #14100f;
+    --secondary-color: #8928a7;
+    --bg-color: #767a7f;
+    --font-color: #f0f4f8fa;
+    --heading-color: #ebe1de;
 }
 
 body {
@@ -28,27 +28,30 @@ header {
 
 header h1 {
     color: var(--heading-color);
-    margin: 0;
+    margin: 10;
 }
 
 button {
     margin: 5px;
-    padding: 8px 16px;
-    font-size: 16px;
+    padding: 5px 15px;
+    font-size: 15px;
     cursor: pointer;
 }
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 img {
     width: 300px;
     height: auto;
     border-radius: 5px;
+    border-color: #6c757d;
+    border-width: 3px;
+    margin-left: 10px;
+    margin-right: 0;
 }
 
 p {
@@ -56,5 +59,19 @@ p {
 }
 
 #buttons {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-left: 0;
+    float: left;
+}
+
+#theme-toggle{
+    color: #171211;
+}
+
+article{
+    flex: 2;
+}
+
+div{
+    flex: 1;
 }
