@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --bg-color: #f8f9fa;
+    --font-color: #343a40;
+    --heading-color: #007bff;
+}
+
+[data-theme="dark"] {
+    --primary-color: #ff6347;
+    --secondary-color: #28a745;
+    --bg-color: #343a40;
+    --font-color: #f8f9fa;
+    --heading-color: #ff6347;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--heading-color);
+    margin: 0;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    font-style: italic;
+}
+
+#buttons {
+    margin-top: 20px;
+}
