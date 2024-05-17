@@ -45,17 +45,18 @@ main {
 }
 
 img {
-    width: 300px;
+    width: 700px;
     height: auto;
     border-radius: 5px;
     border-color: #6c757d;
     border-width: 3px;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: 0;
 }
 
 p {
     font-style: italic;
+    margin-left: 100px;
 }
 
 #buttons {
