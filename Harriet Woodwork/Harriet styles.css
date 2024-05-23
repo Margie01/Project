@@ -1,44 +1,55 @@
-/* Reset some default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+body{
+    margin: 0px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+header{
+    background-color: #1c8e08;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+.Brand img{
+    background-color: #1c8e08;
+    margin-top: 10px;
+    width: 100px;
+    float: left;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+.Brand h1{
+    font-size: 50px;
+    position: relative;
+    top: 25px;
 }
 
-header h1 {
-    margin-left: 20px;
-}
 
-nav ul {
+.navbar ul{
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+.navbar a{
     color: #fff;
     text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: brown;
+}
+
+.navbar li{
+    float: left;
+    font-size: 20px;
+}
+
+.about{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 section {
@@ -49,30 +60,53 @@ section h2 {
     margin-bottom: 20px;
 }
 
-form label {
-    display: block;
-    margin-bottom: 5px;
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+input{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
 }
 
-form button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
+textarea{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 25px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+    display: flex;
+    margin: auto;
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #4f554e;
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #1c8e08;
     text-align: center;
     padding: 10px 0;
 }
